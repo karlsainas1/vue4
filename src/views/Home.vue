@@ -1,18 +1,48 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <section class="hero-banner">                                <!-- HERO -->
+     
+         <h1 class="hero">Tsauä</h1> <br>
+        
+    
+    
+    </section>
+    
+    <About />
+    
+      
+       
+        
+     
+    
+    <section class="contact content">                    <!--  KONTAKT   -->
+        
+    <h2> Kontakt </h2>
+       
+       
+        <iframe width="700" height="700" id="gmap_canvas" src="https://maps.google.com/maps?q=tartu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            
+        </iframe>
+    </section>
+    
+    
+
+    <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
-
+import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
+import About from '@/components/About.vue';
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    Navbar,
+      Footer,
+      About,
   },
 };
 </script>
