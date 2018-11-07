@@ -1,34 +1,22 @@
 <template>
   <div class="hello">
-    
-    <footer>                                           
-        
+
+    <footer>
+
         <p>varjupaik</p>
-        
-        
+
+
     </footer>
-    
+
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
-  
+
 };
 </script>
 
@@ -37,6 +25,6 @@ export default {
     footer{
         height:200px;
     }
-    
-    
+
+
 </style>

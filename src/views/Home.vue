@@ -1,33 +1,21 @@
 <template>
   <div class="home">
     <Navbar />
-    <section class="hero-banner">                                <!-- HERO -->
-     
-         <h1 class="hero">Tsauä</h1> <br>
-        
-    
-    
-    </section>
-    
-    <About />
-    
-      
-       
-        
-     
-    
-    <section class="contact content">                    <!--  KONTAKT   -->
-        
-    <h2> Kontakt </h2>
-       
-       
+
+    <hero />
+
+
+  <!--  <section class="contact content">
+
+   <h2> Kontakt </h2>
+
+
         <iframe width="700" height="700" id="gmap_canvas" src="https://maps.google.com/maps?q=tartu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-            
+
         </iframe>
     </section>
-    
-    
 
+-->
     <Footer />
   </div>
 </template>
@@ -36,13 +24,15 @@
 // @ is an alias to /src
 import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
-import About from '@/components/About.vue';
+import Hero from '@/components/Hero.vue';
+
+
 export default {
   name: 'home',
   components: {
     Navbar,
-      Footer,
-      About,
+    Footer,
+    Hero,
   },
 };
 </script>

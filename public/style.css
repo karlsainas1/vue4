@@ -50,7 +50,7 @@ header {
     
 }
 
-nav ul li {                                    /* NAV */
+/* nav ul li {                                   
     float: left;
     display: block;
    margin-top: 20px;
@@ -73,19 +73,8 @@ nav ul li:hover {
 }
 
 
+*/
 
-.hero-banner{                               /* BANNER */
-    
-    background-image: url("img/kass1.jpg");
-	background-position: center;
-	background-size: auto ;
-	background-attachment: fixed;
-    height: 80vh;
-    width=100%;
-      border-bottom: 10px solid #F85F73 ; 
-      border-top: 10px solid #F85F73 ; 
-    
-}
 
 .hero {
      margin-top:150px;
