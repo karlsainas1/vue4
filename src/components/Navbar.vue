@@ -1,5 +1,5 @@
 <template>
-  <div class="hello bc">
+  <div class=" bc">
 <div class= "wide fixed">
      
     
@@ -7,9 +7,10 @@
       
      <ul class="topnav">
      <img src="../assets/img/logo.png" alt="">  
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <li><router-link to="/">Avaleht</router-link></li>
+  <li><router-link to="/loomad">Loomad</router-link></li>
+  <li><a href="#contact">kaotatud ja leitud</a></li>
+  <li><a href="#contact">Toeta meid</a></li>
  
 </ul>
          
@@ -59,8 +60,8 @@ export default {
     
     .wide {
         width: 100%;
-        background-color: #fff8f0;
-        box-shadow: -14px -30px 64px 44px rgba(0,0,0,0.7);
+        background-color:#EFF1F3;
+        box-shadow: -14px -30px 64px 44px rgba(0,0,0,0.3);
     }
     body {margin: 0;}
     ul{
@@ -73,7 +74,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fff8f0;
+    background-color: #EFF1F3;
 }
 
 
@@ -81,7 +82,7 @@ ul.topnav {
 ul.topnav li a {
     margin-top:101px;   
     display: block;
-    color: white;
+    color: #223843;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -92,11 +93,11 @@ ul.topnav li a {
     font-weight: bold;
     }
 
-ul.topnav li a:hover:not(.active) {background-color: #aa9e91;}
+ul.topnav li a:hover:not(.router-link-active) {background-color: #DBD3D8 ;}
 
-ul.topnav li a.active {background-color: #F85F73;}
+.router-link-active {background-color: #F85F73;}
 
-
+.router-link-active:hover{ background-color: #F85F73;}
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 

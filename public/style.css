@@ -1,9 +1,4 @@
-/* CREAMY COLOR: #FBE8D3  
-   DARK COLOR  : #928A97
-   Pink        : #F85F73
 
-
-*/
 
 
 *{
@@ -13,103 +8,41 @@
 
 }
 body{
-    background-color: #fff8f0  ;
+    background-color: #EFF1F3  ;
         
 }
-.container{
-width: 1140px;
-	margin:auto; 
-}
-
-header {
-    
-    display: flex;
-    flex-direction: row;
-      width=100vw;
-   list-style: none;    
-    
-     border-bottom: 2px solid #F85F73;  
-}
-.header {
-       
-    
-    display: flex;
-    flex-direction: row;
-}
-.header-logo {
-    width:150px;
-    height: 150px;
-    
-}
 
 
-.navbar {
-   margin: 30px 0px 0px 30px;
-    display: flex;
+.flexh{
+   
+    display:flex;
+    justify-content: center;
+    margin-top:15vh;
+    
+}
+.flexv {
     flex-direction: column;
-    
 }
 
-/* nav ul li {                                   
-    float: left;
-    display: block;
-   margin-top: 20px;
-    margin-right:2vw;
-    color:  #F85F73;
-    font-weight: bold;
-    padding: 16px;
-    text-decoration: none; 
-     border: 2px solid #928A97 ; 
-    border-radius: 5px;
-}
-.active{
-    font-size: 20px;
-    padding:14px;
-    padding-bottom:13px;
-}
-nav ul li:hover {
-    background-color: rgba(255, 255, 255, 0.5) ;
-    
+.aboutimg{
+    width: 30vw;
+    height:30vw
+        ;
+    border-radius: 10px;
+    margin-left: 10vw;
 }
 
-
-*/
-
-
-.hero {
-     margin-top:150px;
-    
-    font-size: 8vh;
-    text-align: center;
-    
- 
-    color: white;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-text-wrap:none;
-
+.varjupaigas{
+       text-align: center;
+    background-color: #DBD3D8;
+	background-position: center;
+	background-size: auto ;
+	background-attachment: fixed;
+    width:300px;
+    height: 300px;
+    margin-left:5vw;
+    margin-right:5vw;
 }
-
-
-
-
-
-    
-    
-}
-
-
-
-.contact {
-    flex-direction: row-reverse;
-    }
-
-
-      
-    
-
-
 
 .line {
     width:100% ;
@@ -117,32 +50,11 @@ text-wrap:none;
     background-color :#F85F73 ;
 }
 .smollimg{
+    margin-left: 10vw;
     width: 15vh;
     height:auto;
-display:flex;
+    display:flex;
     align-items: flex-end;
-}
-
-
-.card {
-      display:flex;
-    flex-direction: column;
-    width:20vw;
-    margin-right:5vw;
-    padding: 20px;
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    
-    background-clip: border-box;
-    
-    border-radius: .25rem;
-   padding-bottom:0px;
-
 }
 
 
@@ -151,4 +63,9 @@ footer{
     width: 100%;
     text-align: center;
     background-color: #F85F73;
+}
+.about{
+  
+    display: flex;
+    text-align: center;   
 }

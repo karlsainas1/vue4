@@ -1,0 +1,5 @@
+fiery rose : #F85D72
+indigo     : #223843
+white      : #EFF1F3
+gray       : #DBD3D8
+pastel     : #D8B4A0
