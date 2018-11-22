@@ -27,12 +27,12 @@
       
 
   </div>
-     
+     <p class="hetkel">Hetkel varjupaigas</p>
       <div class="flexh">    <!-- hetkel varjupaigas -->
       
-      <p class="varjupaigas"> 23 <br> koera </p>
-      <p class="varjupaigas"> 42 <br> kassi </p>
-      <p class="varjupaigas"> 34 <br> muud  </p>
+      <h1 class="varjupaigas"> 23 <br> koera </h1>
+      <h1 class="varjupaigas"> 60 <br> kassi </h1>
+      <h1 class="varjupaigas"> 2 <br> muud  </h1>
       
       
       

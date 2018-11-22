@@ -5,14 +5,13 @@
     
       <nav  class= contain>
       
-     <ul class="topnav">
+  <ul class="topnav">
      <img src="../assets/img/logo.png" alt="">  
   <li><router-link to="/">Avaleht</router-link></li>
   <li><router-link to="/loomad">Loomad</router-link></li>
-  <li><a href="#contact">kaotatud ja leitud</a></li>
-  <li><a href="#contact">Toeta meid</a></li>
- 
-</ul>
+  <li><router-link to="/leitud">Kaotatud ja Leitud</router-link></li>
+  <li><router-link to="/toeta">Toeta Meid</router-link></li>
+    </ul>
          
           
           
@@ -93,7 +92,7 @@ ul.topnav li a {
     font-weight: bold;
     }
 
-ul.topnav li a:hover:not(.router-link-active) {background-color: #DBD3D8 ;}
+
 
 .router-link-active {background-color: #F85F73;}
 

@@ -17,7 +17,7 @@ body{
    
     display:flex;
     justify-content: center;
-    margin-top:15vh;
+    margin-top:5vh;
     
 }
 .flexv {
@@ -26,22 +26,33 @@ body{
 
 .aboutimg{
     width: 30vw;
-    height:30vw
-        ;
+    height:30vw;
+    
     border-radius: 10px;
+    
     margin-left: 10vw;
 }
 
 .varjupaigas{
-       text-align: center;
+    text-align: center;
     background-color: #DBD3D8;
+     background-image: url("../src/assets/img/kass1.jpg");
 	background-position: center;
 	background-size: auto ;
 	background-attachment: fixed;
     width:300px;
-    height: 300px;
+  
+    padding-top: 109px;
+    padding-bottom: 109px;
     margin-left:5vw;
     margin-right:5vw;
+    margin-bottom:15vh;
+    font-size: 32px;
+    font-weight: bold;
+    color:#223843;
+    box-shadow: 7px 7px 48px -8px rgba(0,0,0,0.5);
+    border-radius:10px;
+    
 }
 
 .line {
@@ -68,4 +79,14 @@ footer{
   
     display: flex;
     text-align: center;   
+}
+
+
+.sorting-buttons{
+    margin-top:20vh;
+}
+.hetkel{
+    text-align: center;
+    margin-top:10vh;
+    font-size:32px;
 }

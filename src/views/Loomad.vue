@@ -1,8 +1,20 @@
 <template>
   <div class="loomad">
     <Navbar />
-
-
+<div class="space"> </div>
+      
+      <div class="content">
+        <section class="sorting-buttons">
+          <button> Koerad</button>
+          <button> Kassid</button>
+          <button> Muud  </button>
+          <button> Kõik  </button>
+      
+      
+      </section>
+      
+      
+</div>
     <Footer />
   </div>
 </template>
@@ -21,5 +33,6 @@ export default {
     Footer,
     
   },
+
 };
 </script>
